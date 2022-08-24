@@ -1,0 +1,12 @@
+{{ range where .Site.Pages ".Type" "book" }}
+  {{$hcRelease := (time .Params.hc_release_date) }}
+  <div>
+    <h3 class="title">{{.Title}}</h3>
+    <p>released: {{ $hcRelease.Month }}  {{ $hcRelease.Day }}, {{ $hcRelease.Year }}</p>
+    <p>ISBN: {{ .Params.isbn }}</p>
+    <h4>summary</h4>
+    {{.Params.book_summary}}
+    {{.Content}}
+    <p>For more information about this book visit the book's page <a href="{{ .RelPermalink }}">here</a>. </p>
+  </div>
+{{end}}

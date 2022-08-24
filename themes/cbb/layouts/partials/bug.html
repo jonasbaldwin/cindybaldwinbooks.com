@@ -1,0 +1,10 @@
+{{ $bugClass := print "height: " .size "px; width: " .size "px; margin-top: " .margin_top "px; margin-left: " .margin_left "px;" }}
+{{ $innerClass := print "height: " .size "px; width: " .size "px; background-size: " .size "px " .size "px; transform: rotate(" .rotate "deg);"}}
+{{ $hintStyle := print "width: " .text_width "px; top: -5px; right: 115%;"}}
+
+<span class="bug" style="{{ $bugClass | safeCSS }}">
+  <span class="shake">
+    <span class="{{.type}}" style="{{ $innerClass | safeCSS}}"></span>
+  </span>
+  <span class="hint-text" style="{{ $hintStyle | safeCSS }}">{{.text}}</span>
+</span>

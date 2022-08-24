@@ -1,0 +1,203 @@
+baseURL = 'http://cindybaldwinbooks.com/'
+languageCode = 'en-us'
+title = 'Cindy Baldwin Books'
+theme = "cbb"
+
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[Menus]
+
+[[Menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[Menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[Menus.main]]
+  name = "Books"
+  url = "/books/"
+  weight = 3
+
+[[Menus.main]]
+  name = "Events"
+  url = "/events/"
+  weight = 4
+
+[[Menus.main]]
+  name = "Press Kit"
+  url = "/press-kit/"
+  weight = 5
+
+[[Menus.main]]
+  name = "For Teachers"
+  url = "/for-teachers/"
+  weight = 6
+
+[[Menus.main]]
+  name = "For Writers"
+  url = "/for-writers/"
+  weight = 7
+
+[[Menus.main]]
+  name = "For Kids"
+  url = "/for-kids/"
+  weight = 8
+
+[[Menus.main]]
+  name = "Extras"
+  url = "/extras/"
+  weight = 9
+
+[[Menus.main]]
+  name = "blog"
+  url = "http://blog.cindybaldwinbooks.com/"
+  weight = 10
+
+
+[params]
+[[params.bugs]]
+  page = "Cindy Baldwin Books"
+  type = "bee"
+  text = "Where the Watermelons Grow was originally inspired by the children’s song \"Down By The Bay.\""
+  size = 50
+  margin_top = 87
+  margin_left = 200
+  rotate = 30
+  text_width = 200
+  position = "left"
+
+[[params.bugs]]
+  page = "For Teachers"
+  type = "bee"
+  text = "Whistling Ridge, the town Ivy's family visits in The Stars of Whistling Ridge, was loosely inspired by the town where Cindy's grandparents lived when she was a kid."
+  size = 35
+  margin_top = 100
+  margin_left = -500
+  rotate = 44
+  text_width = 200
+  position = "right"
+
+[[params.bugs]]
+  page= "Cindy Baldwin Books"
+  type= "firefly"
+  size= 35
+  margin_top= 235
+  margin_left= -330
+  rotate= 125
+  text= "The Stars of Whistling Ridge was originally inspired by a typo. Cindy was trying to google something about \"Little Women\" by Louisa May Alcott, but her phone autocorrected it to \"Little Winnebago\" instead."
+  text_width= 300
+  position= "right"
+
+[[params.bugs]]
+  page = "Cindy Baldwin Books"
+  type = "firefly"
+  size = 30
+  margin_top = 565
+  margin_left = 330
+  rotate = -32
+  text = "Cindy played in several violin recitals at Brightleaf Square Mall in Durham, NC—the place Annie Lee takes piano lessons in Beginners Welcome."
+  text_width = 200
+  position = "left"
+
+[[params.bugs]]
+  page = "Cindy Baldwin Books"
+  type = "bee"
+  size = 35
+  margin_top = 670
+  margin_left = -490
+  rotate = 42
+  text = "Cindy’s favorite book is A Ring of Endless Light by Madeleine L’Engle."
+  text_width = 150
+  position = "right"
+
+[[params.bugs]]
+  page = "Extras"
+  type = "bee"
+  size = 40
+  margin_top = 240
+  margin_left = -600
+  rotate = 22
+  text = "Watermelons grown near the Albermarle Sound, where Della’s family lives in Where The Watermelons Grow, really ARE some of the most delicious melons ever!"
+  text_width = 200
+  position = "right"
+
+[[params.bugs]]
+  page = "Where the Watermelons Grow"
+  type = "firefly"
+  text = "Cindy's daughter was two years old when she wrote Where the Watermelons Grow. Every single thing that baby Mylie gets in trouble for were real-life things that Cindy's baby did!"
+  size = 35
+  margin_top = 1000
+  margin_left = 700
+  rotate = -28
+  text_width = 200
+  position = "left"
+
+[[params.bugs]]
+  page = "For Kids"
+  type = "firefly"
+  size = 50
+  margin_top = 350
+  margin_left = 470
+  rotate = -40
+  text = "When Cindy was 12, her favorite series was The Chronicles of Prydain by Lloyd Alexander. There are references to this series in two of Cindy's books."
+  text_width = 200
+  position = "left"
+
+[[params.bugs]]
+  page = "For Kids"
+  type = "bee"
+  size = 30
+  margin_top = 150
+  margin_left = -230
+  rotate = 38
+  text = "In The Stars of Whistling Ridge, Ravi's dad loves to experiment with new ice cream flavors. This is based on Cindy's husband, who loves to try new and unusual recipes for ice cream."
+  text_width = 300
+  position = "right"
+
+
+
+[[params.social]]
+  name="Goodreads"
+  img="/images/goodreads-small.png"
+  href="https://www.goodreads.com/author/show/16027248.Cindy_Baldwin"
+  weight=1
+
+[[params.social]]
+  name="email"
+  img="/images/email-xsmall.png"
+  href="mailto:cindybaldwinbooks@gmail.com"
+  weight=2
+
+[[params.social]]
+  name="Instagram"
+  img="/images/instagram-small.png"
+  href="https://www.instagram.com/cindybaldwinbooks/"
+  weight=3
+
+[[params.social]]
+  name="Twitter"
+  img="/images/twitter-small.png"
+  href="https://twitter.com/beingcindy"
+  weight=4
+
+[[params.social]]
+  name="FaceBook"
+  img="/images/facebook-small.png"
+  href="https://www.facebook.com/cindybaldwinbooks/"
+  weight=5
+
+[[params.headshots]]
+  img="/images/headshot1.jpeg"
+  caption="Photo Credit Cindy Baldwin"
+  alt="Headshot of Cindy Baldwin"
+
+[[params.headshots]]
+  img="/images/headshot2.jpeg"
+  caption="Photo Credit Cindy Baldwin"
+  alt="Headshot of Cindy Baldwin"

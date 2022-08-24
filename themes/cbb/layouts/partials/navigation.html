@@ -1,0 +1,25 @@
+<div id="nav-border" class="container">
+    <nav id="nav" class="navigation">
+        {{ $isHome := .IsHome }}
+        {{ $currentPage := .Title }}
+        {{ $currentType := .Type }}
+
+        {{ range .Site.Menus.main }}
+            {{ $displayLink := true }}
+            {{if (and (eq .Name "Home") $isHome) }}
+                {{ $displayLink = false }}
+            {{end}}
+            {{ $className := "nav-link" }}
+            {{ if (eq $currentPage .Name) }}{{ $className = "nav-link active" }}{{end}}
+            {{ if (and (eq $currentType "book")
+                       (eq .Name "Books") ) }}{{ $className = "nav-link active" }}{{end}}
+
+            {{ if $displayLink }}
+                <a class="{{$className}}" href="{{ .URL }}" {{if eq .URL "http://blog.cindybaldwinbooks.com/"}}target="_blank"{{end}}>
+                    {{ $text := print .Name | safeHTML }}
+                    {{ $text }}
+                </a>&nbsp;
+            {{ end }}
+        {{ end }}
+    </nav>
+</div>

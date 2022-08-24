@@ -1,0 +1,213 @@
+{:where-the-watermelons-grow   {:shortcuts         #{"watermelons" "watermellons" "watermelon" "watermellon" "wm" "water" "melon" "mellon" "della"}
+                                :uri               "where-the-watermelons-grow"
+                                :title             "Where the Watermelons Grow"
+                                :subtitle          "hardcover and paperback available now!"
+                                :release-text      "July 3rd, 2018"
+                                :authors           ["Cindy Baldwin"]
+                                :images            {:front-cover            "images/books/WhereWatermelonsGrow-cover.jpeg"
+                                                    :front-cover-art-credit "Erin Fitzsimmons"}
+                                :active            true
+                                :isbn              "978-0062665867"
+                                :display-date      {:day   1
+                                                    :month 1
+                                                    :year  2017}
+                                :pub-date          {:day   3
+                                                    :month 7
+                                                    :year  2018}
+                                :cover-reveal      true
+                                :brag              ["A Washington Post KidsPost Summer Book Club Selection"
+                                                    "An Indies Introduce and Indie Next title"
+                                                    ["Stared reviews from " [:i "School Library Journal"] ", " [:i "Booklist"] ", " [:i "Shelf Awareness"] ", and " [:i "Publishers Weekly"]]]
+                                :quotes            [{:type     :indie
+                                                     :location :top
+                                                     :text     "A Washington Post KidsPost Summer Book Club Selection"
+                                                     :link     "https://www.washingtonpost.com/lifestyle/kidspost/kidspost-summer-book-club-make-a-difference/2019/05/28/cae6c8f0-78c7-11e9-bd25-c989555e7766_story.html"}
+                                                    {:type     :indie
+                                                     :location :top
+                                                     :text     "An Indies Introduce and Indie Next title"
+                                                     :link     "http://www.bookweb.org/indies-introduce/Where%20the%20Watermelons%20Grow"}
+                                                    {:type     :indie
+                                                     :location :top
+                                                     :text     "A Bank Street Best Book of 2019"
+                                                     :link     "https://s3.amazonaws.com/bankstreet-wordpress/wp-content/uploads/2018/01/2019-12-to-14-list-for-the-web.pdf"}
+                                                    {:type     :other-top
+                                                     :location :top
+                                                     :text     "An Oregon Spirit Book Award Honor"}
+                                                    {:type     :indie
+                                                     :location :top
+                                                     :text     "An AudioFile Earphones Award Winner"
+                                                     :link     "https://www.audiofilemagazine.com/reviews/read/150146/?utm_content=84373807&utm_medium=social&utm_source=twitter&hss_channel=tw-16904257"}
+                                                    {:type     :star-review
+                                                     :business "School Library Journal"
+                                                     :link     "https://www.slj.com/2018/03/reviews/books/watermelons-grow-cindy-baldwin-slj-review/"
+                                                     :text     "Middle grade stories about mental illness, particularly those that focus on empathy and acceptance, are rare. This heartfelt story will stay with readers. A top choice."}
+                                                    {:type     :star-review
+                                                     :text     "First-time author Baldwin has written a heartbreaking, yet heartening, story that explores mental illness and its effects on an entire family. Readers will connect with the novel’s well-formed characters and be absorbed by the plot, which pulls no punches but doesn’t overwhelm."
+                                                     :business "Booklist, Starred Review"}
+                                                    ;:link ""}
+                                                    {:type     :star-review
+                                                     :business "Shelf Awareness"
+                                                     :link     "https://shelf-awareness.com/readers-issue.html?issue=729#m12787"
+                                                     :text     "Cindy Baldwin’s graceful debut is an ode to family and community. Hints of sweet magical realism touch Where the Watermelons Grow, balancing this exquisite novel’s bittersweet authenticity."}
+                                                    {:type     :star-review
+                                                     :business "Publishers Weekly"
+                                                     :link     "https://www.publishersweekly.com/978-0-06-266586-7"
+                                                     :text     "In her debut novel, Baldwin presents a realistic portrayal of life with a mentally ill parent."}
+                                                    {:type     :review
+                                                     :business "Kirkus"
+                                                     :link     "https://www.kirkusreviews.com/book-reviews/cindy-baldwin/where-the-watermelons-grow/"
+                                                     :text     "This debut novel gushes with Southern charm and depicts a warm, compassionate community... This story’s as sweet as Della’s daddy’s watermelons but never saccharine."}
+                                                    {:type     :review
+                                                     :business "Bulletin for the Center for Children's Books"
+                                                     :link     "https://muse.jhu.edu/article/697568"
+                                                     :text     ["This has a tenderness that will appeal to fans of DiCamillo’s " [:i "Because of Winn-Dixie"] "."]}
+                                                    {:type     :review
+                                                     :business "VOYA"
+                                                     :text     "Where the Watermelons Grow takes a close look at the unpredictable and debilitating nature of schizophrenia. Baldwin writes with a genuine voice."}
+                                                    {:type     :review
+                                                     :business "BookPage.com"
+                                                     :link     "https://bookpage.com/reviews/22885-cindy-baldwin-where-watermelons-grow-childrens#.XNr5gaJKgWo"
+                                                     :text     "...a spot-on, insightful novel about a preteen learning to live with and accept a parent’s mental illness."}
+                                                    {:type         :blurb
+                                                     :author       "Kirby Larson"
+                                                     :newbery-book "Hattie Big Sky"
+                                                     :text         "Della’s story is a reminder that life is much like the watermelons her Daddy grows: even under the toughest rinds of troubles, we can find the cool, sustaining sweetness of friendship."
+                                                     :date         #inst "2018-03-07T00:00:00.000Z"}
+                                                    {:type   :review
+                                                     :text   "The story is beautiful! The writing is beautiful! The characters are beautiful! Della and her community show an empathetic view of mental illness. Readers will understand that mental illness isn’t ‘crazy,’ and sometimes helping someone else heal can mean learning to heal yourself first."
+                                                     :author "Allison Barton, bookseller, The Children’s Book Garden (Berlin, MD)"}
+                                                    {:type   :review
+                                                     :text   "Powerful and thoughtful."
+                                                     :author "Nicole Yasinsky, bookseller, Novel. (Memphis, TN)"}
+                                                    {:type   :review
+                                                     :text   "This warmed my little Hufflepuff heart—I didn’t even need a mug of hot cocoa."
+                                                     :author "Jessica Hahl, bookseller, The Country Bookshelf (Bozeman, MT)"}]
+
+                                :publisher         "Harper Children's"
+                                :vendors           {:cbb.affiliates/goodreads    {:product-id "32797683-where-the-watermelons-grow" :image ""}
+                                                    :cbb.affiliates/amazon       {:product-id "Where-Watermelons-Grow-Cindy-Baldwin/dp/0062665863"}
+                                                    :cbb.affiliates/ban          {:product-id "https://www.barnesandnoble.com/w/where-the-watermelons-grow-cindy-baldwin/1126728566?ean=9780062665867#/"}
+                                                    :cbb.affiliates/harper       {:product-id "9780062665867/where-the-watermelons-grow"}
+                                                    :cbb.affiliates/bookshop-org {:product-id "9780062665867"}
+                                                    :cbb.affiliates/annie        {:product-id "9780062665867"}}
+                                ;:notes        [:div.arc-notice "If you'd like to request an advance copy of " [:i "Where the Watermelons Grow"] " for review, please fill out "
+                                ;               [:a {:href "https://docs.google.com/forms/d/e/1FAIpQLSeOHPks621hRp3S4MlSSsma0fXzmFldZ7fIC_H4edxA-drbJw/viewform?usp=sf_link"} "this form"]
+                                ;               "! I'll pass all responses on to my publisher, though I'm not in charge of granting requests and can't guarantee a copy. e-ARCs can be requested via Edelweiss. ARC requests can also be made by contacting the HarperCollins Children's publicity contact, Cindy Hamilton, at "
+                                ;               [:a {:href "mailto:Cindy.Hamilton@harpercollins.com"} "Cindy.Hamilton@harpercollins.com."]]
+                                :description       ["Twelve-year-old Della Kelly has lived her whole life in Maryville, North Carolina. She knows how to pick the softest butter beans and sweetest watermelons on her daddy’s farm. She knows ways to keep her spitfire baby sister out of trouble (most of the time). She knows everyone in Maryville, from her best friend Arden to kind newcomer Miss Lorena to the mysterious Bee Lady."
+                                                    "And Della knows what to do when the sickness that landed her mama in the hospital four years ago spirals out of control again, and Mama starts hearing people who aren’t there, scrubbing the kitchen floor until her hands are raw, and waking up at night to cut the black seeds from all the watermelons in the house. With Daddy struggling to save the farm from a record-breaking drought, Della decides it’s up to her to heal Mama for good. And she knows just how she’ll do it: with a jar of the Bee Lady’s magic honey, which has mended the wounds and woes of Maryville for generations."
+                                                    "She doesn’t want to hear the Bee Lady’s truth: that the solution might have less to do with fixing Mama’s brain than with healing Della’s own heart. But as the sweltering summer stretches on, Della must learn—with the help of her family and friends, plus a fingerful of watermelon honey—that love means accepting her mama just as she is."]
+                                :summary           ["Fans of " [:i "The Thing About Jellyfish"] " and " [:i "A Snicker of Magic"] " will be swept away by Cindy Baldwin’s debut middle grade about a girl coming to terms with her mother’s mental illness."]
+                                :brief-description ["When twelve-year-old Della Kelly finds her mother furiously digging black seeds from a watermelon in the middle of the night and talking to people who aren't there, Della worries that it’s happening again—that the sickness that put her mama in the hospital four years ago is back. That her mama is going to be hospitalized for months like she was last time."
+                                                    "With her daddy struggling to save the farm and her mama in denial about what’s happening, it’s up to Della to heal her mama for good. And she knows just how she’ll do it: with a jar of the Bee Lady’s magic honey, which has mended the wounds and woes of Maryville, North Carolina, for generations."
+                                                    "But when the Bee Lady says that the solution might have less to do with fixing Mama’s brain and more to do with healing her own heart, Della must learn that love means accepting her mama just as she is."]
+                                :resources         [{:type        :mg-teaching-guild
+                                                     :disp-date   "August 2018"
+                                                     :pdf-uri     "resources/watermelonsGrowTeachingGuide.pdf"
+                                                     :description "This discussion guide, designed with classrooms in mind, features an exclusive interview, discussion questions, a recipe for honey-sweetened watermelon limeade, an activity, and a printable coloring page."}
+                                                    {:type    :hc-teaching-guild
+                                                     :pdf-uri "https://b0f646cfbd7462424f7a-f9758a43fb7c33cc8adda0fd36101899.ssl.cf2.rackcdn.com/teaching-guides/TG-9780062665867.pdf"}
+                                                    {:type     :video
+                                                     :platform :youtube
+                                                     :video-id "gIEPY__fkiI"
+                                                     :title    "Book Trailer"}
+                                                    {:type     :video
+                                                     :platform :youtube
+                                                     :video-id "RhhoSeeWiAw"
+                                                     :title    ["5 Facts about " [:i "Where the Watermelons Grow"]]}
+                                                    {:type     :video
+                                                     :platform :youtube
+                                                     :video-id "tlXtD7keayc"
+                                                     :title    "Cindy Baldwin on Disability Narratives"}]}
+
+ :beginners-welcome            {:uri               "beginners-welcome"
+                                :title             "Beginners Welcome"
+                                :subtitle          "hardcover available now!"
+                                :authors           ["Cindy Baldwin"]
+                                :images            {:front-cover            "images/books/BeginnersWelcome-cover.jpeg"
+                                                    :front-cover-art-credit ["Harriett Russell " [:br] "and Erin Fitzsimmons"]}
+                                :active            true
+                                :isbn              "978-0062665898"
+                                :display-date      {:day   11
+                                                    :month 6
+                                                    :year  2019}
+                                :pub-date          {:day   11
+                                                    :month 2
+                                                    :year  2020}
+                                :quotes            [{:type                      :blurb
+                                                     :location                  :top
+                                                     :author                    "Jessica Day George"
+                                                     :new-york-times-bestseller "Tuesdays At The Castle"
+                                                     :text                      "As delicate and powerful as a sonata, Annie Lee's story of music, magic, loss, and love should not be missed!"
+                                                     :publisher                 "Harper Children's"}
+                                                    {:type     :star-review
+                                                     :location :top
+                                                     :text     "Targeted to kids who sometimes feel invisible or afraid, Baldwin’s prose challenges them to be the bravest and wisest versions of themselves, delivering the message that it is our brokenness that makes us beautiful, not our perfection."
+                                                     :author   "School Library Journal"}
+                                                    {:type     :review
+                                                     :text     "Once again, Baldwin crafts a solid story of hardship tempered by community and resilience."
+                                                     :author   "Kirkus Reviews"
+                                                     :link     "https://www.kirkusreviews.com/book-reviews/cindy-baldwin/beginners-welcome/"}
+                                                    {:type     :review
+                                                     :text     "Intermingling themes of grief and loss with moments of unexpected, joyful connection, Baldwin depicts character growth with particular grace."
+                                                     :author   "Publishers Weekly"}
+                                                    {:type     :review
+                                                     :text     "Genuine and hopeful, Annie Lee’s story is one of finding courage in tough circumstances, of love and vulnerability, and of the power of music, despite one’s imperfections."
+                                                     :author   "Booklist"}]
+                                :vendors           {:cbb.affiliates/goodreads    {:product-id "43520694-beginners-welcome" :image ""}
+                                                    :cbb.affiliates/amazon       {:product-id "Beginners-Welcome-Cindy-Baldwin-ebook/dp/B07RSRLBWT"}
+                                                    :cbb.affiliates/ban          {:product-id "https://www.barnesandnoble.com/w/beginners-welcome-cindy-baldwin/1130069869?ean=9780062665898"}
+                                                    :cbb.affiliates/harper       {:product-id "9780062665898/beginners-welcome/"}
+                                                    :cbb.affiliates/bookshop-org {:product-id "9780062665898"}
+                                                    :cbb.affiliates/annie        {:product-id "9780062665898"}}
+                                ;:notes        [:div.arc-notice "If you'd like to request an advance copy of " [:i "Where the Watermelons Grow"] " for review, please fill out "
+                                ;               [:a {:href "https://docs.google.com/forms/d/e/1FAIpQLSeOHPks621hRp3S4MlSSsma0fXzmFldZ7fIC_H4edxA-drbJw/viewform?usp=sf_link"} "this form"]
+                                ;               "! I'll pass all responses on to my publisher, though I'm not in charge of granting requests and can't guarantee a copy. e-ARCs can be requested via Edelweiss. ARC requests can also be made by contacting the HarperCollins Children's publicity contact, Cindy Hamilton, at "
+                                ;               [:a {:href "mailto:Cindy.Hamilton@harpercollins.com"} "Cindy.Hamilton@harpercollins.com."]]
+                                :summary           ["A heartfelt novel from " [:i "Where the Watermelons Grow"] " author Cindy Baldwin about a young girl’s journey to hope and healing after a tragic loss."]
+                                :description       ["It’s been eighty-three days since Annie Lee’s daddy died, but she still sees reminders of him everywhere. Like in the bathroom sink, where his whiskers appear in the morning along with the scent of his aftershave. His record player mysteriously plays his favorite songs, and the TV keeps turning to the Duke basketball games he loved. She knows Mama notices it, too, but Mama's been working around the clock to make ends meet. To make matters worse, Annie Lee’s friends ditched her over the summer, so she’s feeling completely alone—until she meets Mitch. Though Mitch is tough and confident on the outside, she may need a friend just as badly as Annie Lee. But after losing so much, Annie Lee is afraid to let anyone get too close."
+                                                    "Mitch isn’t the only friend trying to break through Annie Lee’s defenses. Ray, an elderly pianist who plays at a local mall, has been giving her piano lessons. His music is pure magic, and Annie Lee hopes it might be the key to healing her broken heart. But when Ray goes missing, searching for him means breaking a promise to Mitch. Faced with once again losing those who mean the most to her, Annie Lee must make a choice: retreat back into her shell, or risk admitting how much she needs Mitch and Ray—even if it means getting hurt all over again."]
+                                :brief-description ["It’s been eighty-three days since Annie Lee’s daddy died, but she still sees reminders of him everywhere. Like in the bathroom sink, where his whiskers appear in the morning along with the scent of his aftershave. His record player mysteriously plays his favorite songs, and the TV keeps turning to the Duke basketball games he loved. She knows Mama notices it, too, but Mama's been working around the clock to make ends meet. To make matters worse, Annie Lee’s friends ditched her over the summer, so she’s feeling completely alone—until she meets Mitch. Though Mitch is tough and confident on the outside, she may need a friend just as badly as Annie Lee. But after losing so much, Annie Lee is afraid to let anyone get too close."
+                                                    "Mitch isn’t the only friend trying to break through Annie Lee’s defenses. Ray, an elderly pianist who plays at a local mall, has been giving her piano lessons. His music is pure magic, and Annie Lee hopes it might be the key to healing her broken heart. But when Ray goes missing, searching for him means breaking a promise to Mitch. Faced with once again losing those who mean the most to her, Annie Lee must make a choice: retreat back into her shell, or risk admitting how much she needs Mitch and Ray—even if it means getting hurt all over again."]
+                                :resources         [{:type     :video
+                                                     :platform :youtube
+                                                     :video-id "SmRofXkvCLI"
+                                                     :title    "Beginners Welcome Music Video"}
+                                                    {:type     :video
+                                                     :platform :youtube
+                                                     :video-id "ABcw0VWYCSM"
+                                                     :title    ["Cindy Reading the first chapter of " [:i "Beginners Welcome"]]}]}
+ :the-stars-of-whistling-ridge {:shortcuts         #{"stars" "whistling ridge" "stars of whistling ridge"}
+                                :uri               "the-stars-of-whistling-ridge"
+                                :title             "The Stars of Whistling Ridge"
+                                :subtitle          "releasing 6/15/2021"
+                                :release-text      "TBD"
+                                :authors           ["Cindy Baldwin"]
+                                :images            {:front-cover                     "images/books/StarsOfWhistlingRidge-cover.jpeg"
+                                                    :front-cover-illustration-credit "Julie McLaughlin"
+                                                    :front-cover-design-credit       "Cat San Juan and Erin Fitzsimmons"}
+                                :active            true
+                                :isbn              "978-0063006416"
+                                :display-date      {:day   1
+                                                    :month 1
+                                                    :year  2020}
+                                :pub-date          {:day   15
+                                                    :month 6
+                                                    :year  2021}
+                                :cover-reveal      true
+                                :quotes            []
+
+                                :publisher         "Harper Children's"
+                                :vendors           {:cbb.affiliates/goodreads    {:product-id "52498186-the-stars-of-whistling-ridge" :image ""}
+                                                    :cbb.affiliates/amazon       {:product-id "Where-Watermelons-Grow-Cindy-Baldwin/dp/0063006413"}
+                                                    :cbb.affiliates/ban          {:product-id "https://www.barnesandnoble.com/w/the-stars-of-whistling-ridge-cindy-baldwin/1137108724?ean=9780063006416"}
+                                                    :cbb.affiliates/harper       {:product-id "9780063006416/the-stars-of-whistling-ridge"}
+                                                    :cbb.affiliates/bookshop-org {:product-id "9780063006416"}
+                                                    :cbb.affiliates/annie        {:product-id "9780063006416"}}
+                                :description       ["Ivy Mae Bloom, whose name is one letter away from a complete sentence, has lived her entire life on the road. Her mama is a fallen star who travels near and far to tend to the magic that underpins our world. When Ivy steals Mama's entire supply of wish jars in the hopes of finding a forever home, a series of disasters strands the Blooms in Whistling Ridge, North Carolina, with Mama's two star sisters. Ivy knows her wish has been granted and that Whistling Ridge is her forever home—she just needs to convince her parents to stay."
+                                                    "But something is draining the magic from Whistling Ridge, and the star sisters can't stop it. With help from some new friends, Ivy stumbles across a clue in the town's history that might explain the mysterious force threatening Whistling Ridge . . . but if the town's magic is healed, Mama will want to move on. Ivy must choose: Can she help her mama and aunts lift Whistling Ridge's curse—even if it means losing the only place she's ever called home?"
+                                                    "From award-winning author Cindy Baldwin comes an enchanting story about magic, family, and the meaning of home."]
+                                :summary           [:b "In this new novel from the Indies Introduce author of " [:i "Where the Watermelons Grow"] " and " [:i "Beginners Welcome"] ", an almost-thirteen-year-old with an almost-complete sentence for a name embraces her destiny to search for a forever home."]
+                                :brief-description ["Ivy Mae Bloom, whose name is one letter away from a complete sentence, has lived her entire life on the road. Her mama is a fallen star who travels near and far to tend to the magic that underpins our world. When Ivy steals Mama's entire supply of wish jars in the hopes of finding a forever home, a series of disasters strands the Blooms in Whistling Ridge, North Carolina, with Mama's two star sisters. Ivy knows her wish has been granted and that Whistling Ridge is her forever home—she just needs to convince her parents to stay."
+                                                    "But something is draining the magic from Whistling Ridge, and the star sisters can't stop it. With help from some new friends, Ivy stumbles across a clue in the town's history that might explain the mysterious force threatening Whistling Ridge . . . but if the town's magic is healed, Mama will want to move on. Ivy must choose: Can she help her mama and aunts lift Whistling Ridge's curse—even if it means losing the only place she's ever called home?"
+                                                    "From award-winning author Cindy Baldwin comes an enchanting story about magic, family, and the meaning of home."]}}

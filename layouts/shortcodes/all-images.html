@@ -1,0 +1,24 @@
+<div class="photo-grid">
+{{ range .Site.Params.headshots }}
+    <div>
+      <div>
+        <a href="{{.img}}">
+          <img alt="{{.alt}}" src="{{.img}}" />
+        </a>
+      </div>
+      <div class="text-wrap">{{.caption}}</div>
+    </div>
+{{ end }}
+
+{{ range where .Site.Pages ".Type" "book" }}
+  <div>
+    <div>
+      <a href="{{.Params.book_cover_hd}}">
+        <img alt="{{.Params.book_cover_alt}}" src="{{.Params.book_cover_hd}}" />
+      </a>
+    </div>
+    <div class="text-wrap">{{.Params.book_cover_credit}}</div>
+  </div>
+{{end}}
+
+</div>

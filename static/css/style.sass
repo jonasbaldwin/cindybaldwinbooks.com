@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway')
+
+$link-font: 'Raleway', sans-serif
+$link-color: #71C1CE
+$button-color: #71C1CE
+$accent-color: #46b271
+$body-font: 'Raleway', sans-serif
+$background: white
+$review-background: #fae4e7
+//70 178 113
+body
+  background: $background
+  font-family: $body-font
+  h1,h2, h3, h4, h5, h6
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+    text-transform: lowercase
+    font-weight: 500
+    line-height: 1.1
+    color: $accent-color
+    &.plain
+      color: black
+      text-transform: none
+    &.title
+      text-transform: none
+      padding-top: 20px
+      font-style: italic
+    small
+      font-weight: 200
+      font-size: small
+      padding-left: 10px
+  a
+    color: $link-color
+    text-decoration: none
+    &:hover
+      text-decoration: underline
+
+img
+  z-index: 1
+
+.header
+  img.logo
+    display: block
+    margin: 0 auto
+    @media(max-width: 820px)
+      width: 100%
+      max-width: 450px
+    @media(min-width: 821px)
+      width: 25%
+      min-width: 400px
+
+.splash
+  .header
+    width: 100%
+  .navigation
+    @media(max-width: 820px)
+      width: 380px
+      height: 291px
+      margin-left: auto
+      margin-right: auto
+    @media(min-width: 821px)
+      width: 380px
+      height: 291px
+      margin-left: auto
+      margin-right: 5%
+      margin-top: 1%
+    img.nav
+      width: 380px
+      height: 291px
+  .body
+    display: flex
+    align-items: center
+    margin: 50px auto 0
+    @media(max-width: 900px)
+      flex-direction: column
+    @media(min-width: 901px)
+      flex-direction: row
+      width: 900px
+    .shelves
+      display: flex
+      align-items: flex-end
+      @media(max-width: 900px)
+        flex-direction: column
+      @media(min-width: 901px)
+        flex-direction: row
+        width: 900px
+      img.home-links
+        margin-bottom: 5px
+      .shelf-1
+        display: flex
+        align-items: flex-end
+        flex-wrap: wrap
+        img.open-book
+          z-index: 10
+        img.purple-book
+          z-index: 5
+          margin-left: -26px
+
+.social
+  display: flex
+  @media(max-width: 1080px)
+    flex-direction: row
+    margin: 0 auto
+    width: 100%
+    max-width: 370px
+    margin-top: 30px
+    img
+      width: 10vw
+      margin-left: 20px
+      min-width: 25px
+      max-width: 50px
+  @media(min-width: 1081px)
+    flex-direction: column
+    position: absolute
+    top: 175px
+    img
+      width: 50px
+      margin-bottom: 20px
+      margin-left: 40px
+
+.navigation
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  max-width: 900px
+  width: 60%
+  margin: 0 auto
+  a
+    flex-grow: 1
+    text-wrap: none
+    text-align: center
+    padding: 15px
+    color: $link-color
+    text-decoration: none
+    font-size: 1em
+    text-transform: lowercase
+    &:hover, &.active
+      text-decoration: underline
+
+.header .header-watermelon
+  @media(max-width: 630px)
+    display: none
+  @media (min-width: 631px)
+    max-width: 220px
+    width: 10%
+    position: absolute
+    margin-right: 300px
+    margin-top: 25px
+    right: 50%
+
+.content
+  font-family: $body-font
+  @media(max-width: 820px)
+    padding: 10px
+  @media(min-width: 821px)
+    width: 60%
+    max-width: 900px
+    margin: 0 auto
+    margin-top: 20px
+  &.newsletter
+    @media(max-width: 820px)
+      margin-top: 10px
+    @media(min-width: 821px)
+      margin-top: 120px
+
+
+.content.newsletter
+  .form
+    text-align: center
+    margin-top: 15px
+    input
+      height: 22px
+      margin-right: 5px
+      width: 200px
+    .button
+      border: outset #eeeeee 1px
+      border-radius: 3px
+      display: inline-block
+      width: 100px
+      height: 30px
+      padding: 4px
+      text-align: center
+      background-color: $button-color
+      cursor: pointer
+      color: white
+
+
+
+.goodreads-btn
+  padding: 10px
+  padding-bottom: 0
+  padding-top: 5px
+
+.content img, .highlight
+  float: left
+  max-width: 210px
+  padding: 0 20px 10px 0
+
+.highlight-alt
+  float: right !important
+  max-width: 210px
+  padding: 0 20px 10px 0
+
+.contact
+  display: flex
+  .email-form
+    display: flex
+    flex-direction: column
+    width: 50%
+
+.email-form
+  label
+    input, textarea
+      width: 90%
+    textarea
+      height: 150px
+  span.submit
+    border: outset #eeeeee 1px
+    border-radius: 3px
+    display: inline-block
+    width: 100px
+    padding: 4px
+    text-align: center
+    background-color: $button-color
+    cursor: pointer
+
+.book-info
+  float: left
+  padding: 0 20px 20px 0
+  &.on-book
+    max-width: 230px
+  .book-img
+    width: 200px
+  .book-vendors
+    max-width: 230px
+    display: inline-grid
+    .book-vendor
+      display: grid
+      padding-bottom: 5px
+
+
+.book-info-summary
+  min-height: 350px
+
+.footer
+  margin-top: 100px
+  a
+    margin: 0 auto
+    color: gray
+    size: .5em
+
+//#mc_embed_signup .mc-field-group.input-group .button-img
+//  padding: 10px
+//  background-color: $link-color
+//  border-radius: 2px
+
+#mc_embed_signup .mc-field-group.input-group input#mc-embedded-subscribe.button
+  margin-bottom: 10px
+  border-radius: 2px
+  background-color: $link-color
+  line-height: 0
+  padding: 15px
+
+.arc-notice, .buy-book-notice
+  background-color: #fae4e7
+  border-radius: 10px
+  @media(max-width: 820px)
+    width: 90%
+    padding: 5px
+  @media(min-width: 821px)
+    width: 50%
+    padding: 10px
+  margin: 5px auto
+
+
+.break
+  clear: both
+
+.quotes
+  @media(max-width: 470px)
+    display: inline-block
+  h3
+    font-size: 15px
+    color: grey
+  div
+    padding: 10px
+    font-size: 20px
+    .star
+      font-size: 10px
+      margin-bottom: -15px
+    .text
+      font-weight: bold
+    .author
+      color: grey
+      font-size: 15px
+      @media(min-width: 1130px)
+        white-space: nowrap
+  .blurb
+    background-color: white
+  .star-review
+    background-color: white
+
+.link-note
+  .link-note-text
+    visibility: hidden
+    position: absolute
+
+.event
+  h3
+    margin-bottom: 3px
+  .description
+    margin-bottom: 25px
+
+//width="560" height="315"
+.videoWrapper
+  position: relative
+  @media(max-width: 990px)
+    width: 100%
+    padding-bottom: 56.25% /* 16:9 */
+    height: 0
+  @media(min-width: 991px)
+    width: 900px
+    height: 506px
+  padding-top: 30px
+  overflow: hidden
+
+.videoWrapper iframe
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+img.mg-at-heart
+  width: 100%
+  height: auto
+
+div.padding-bottom
+  height: 200px
+
+.content .photo-grid
+  display: flex
+  flex-wrap: wrap
+  img
+    float: none !important
+    width: 280px !important
+    max-width: 280px !important
+    padding: 10px
+  //div.img-block
+  //  display: inline-block
+  div
+    text-align: center
+    &.text-wrap
+      width: 280px
+      word-wrap: break-word
+
+div.bugs
+  margin: auto
+  width: 1px
+  z-index: 100
+  span.bug
+    display: inline-block
+    position: absolute
+    .shake
+      display: inline-block
+      span.bee
+        display: inline-block
+        background-image: url("../images/bee.png")
+        background-repeat: no-repeat
+      span.firefly
+        display: inline-block
+        background-image: url("../images/firefly.png")
+        background-repeat: no-repeat
+    &:hover
+      .shake
+        animation: shake 0.1s
+      .hint-text
+        visibility: visible
+    .hint-text
+      visibility: hidden
+      background-color: black
+      color: #fff
+      text-align: center
+      padding: 5px 0
+      border-radius: 6px
+      position: absolute
+      z-index: 100 !important
+
+
+.faq
+  padding: 7px
+
+@keyframes shake
+  0%
+    transform: translate(1px, 1px) rotate(0deg)
+  10%
+    transform: translate(-1px, -2px) rotate(-1deg)
+  20%
+    transform: translate(-3px, 0px) rotate(1deg)
+  30%
+    transform: translate(3px, 2px) rotate(0deg)
+  40%
+    transform: translate(1px, -1px) rotate(1deg)
+  50%
+    transform: translate(-1px, 2px) rotate(-1deg)
+  60%
+    transform: translate(-3px, 1px) rotate(0deg)
+  70%
+    transform: translate(3px, 1px) rotate(-1deg)
+  80%
+    transform: translate(-1px, -1px) rotate(1deg)
+  90%
+    transform: translate(1px, 2px) rotate(0deg)
+  100%
+    transform: translate(1px, -2px) rotate(-1deg)
+
+@keyframes fadein
+  0%
+    opacity: 0
+  66%
+    opacity: 0
+  100%
+    opacity: 1
+
+@-webkit-keyframes fadein
+  0%
+    opacity: 0
+  66%
+    opacity: 0
+  100%
+    opacity: 1

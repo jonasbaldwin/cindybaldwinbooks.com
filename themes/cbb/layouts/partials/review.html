@@ -1,0 +1,40 @@
+<div class="{{.type}}">
+
+  {{if eq .type "brief"}}
+  <span class="text">
+            {{ if isset . "link" }}
+                <a href="{{.link}}">
+            {{end}}
+            {{.text}}
+            {{ if isset . "link" }}
+                </a>
+            {{end}}
+    </span>
+  {{else}}
+  <span class="text">
+      {{.text}}
+      {{if eq .type "star-review"}} ★ {{end}}
+  </span>
+  <span class="author">
+    {{ if isset . "link" }}
+        <a href="{{.link}}">
+    {{end}}
+        {{if isset . "business" }}
+          {{.business}}{{if eq .type "star-review"}}, Starred Review {{end}}
+        {{else if isset . "author"}}
+          {{.author}}{{if (or (isset . "newberry_book") (isset . "nyt_bestseller"))}}, {{end}}
+        {{end}}
+    {{ if isset . "link" }}
+        </a>
+    {{end}}
+    {{if (isset . "newberry_book")}}
+      Newbery Honor-winning author of <i>{{.newberry_book}}</i>
+    {{end}}
+    {{if (isset . "nyt_bestseller")}}
+      Author of New York Times Bestselling book <i>{{.nyt_bestseller}}</i>
+    {{end}}
+
+  </span>
+  {{end}}
+
+</div>

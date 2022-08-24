@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div class="application">
+            <div class="bugs">
+                {{ range where .Site.Params.bugs "page" .Title }}
+                {{ partial "bug.html" . }}
+                {{ end }}
+            </div>
+            <div class="header">
+                <img class="logo" src="/images/header-black.png" />
+            </div>
+                {{- partial "navigation.html" . -}}
+                <div class="content">
+                {{- block "main" . }}{{- end }}
+                </div>
+                {{- partial "footer.html" . -}}
+            </div>
+        </div>
+    </body>
+</html>

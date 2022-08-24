@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+{{ $subtitle := "" }}
+{{if isset .Params "hc_release_date"}}
+    {{ $hcRelease := (time .Params.hc_release_date) }}
+    {{ if $hcRelease.Before now }}
+        {{ $subtitle = "Hardcover available now!" }}
+    {{ else }}
+        {{ $subtitle = print "releasing " $hcRelease.Month " " $hcRelease.Day ", " $hcRelease.Year }}
+    {{ end }}
+{{end}}
+
+{{if .Params.pb_release_date }}
+    {{ $pbRelease := (time .Params.pb_release_date) }}
+    {{ if $pbRelease.Before now }}
+      {{ $subtitle = "Now available in paperback and hardcover!" }}
+    {{ end }}
+{{end}}
+
+{{ $topReviews := slice }}
+{{ $bottomReviews := slice }}
+
+{{ if isset .Params "reviews"}}
+{{ $topReviews = (where .Params.reviews "location" "==" "top") }}
+{{ $bottomReviews = (where .Params.reviews "location" "!=" "top")}}
+{{end}}
+
+<h1>{{ .Title }} <small>{{$subtitle}}</small></h1>
+
+<div class="book-info on-book">
+    <img src="{{.Params.book_thumbnail}}" class="book-info" />
+    <div class="book-vendors">
+        {{ range sort .Params.vendors "weight" }}
+            <div class="book-vendor">
+                {{ if eq .type "goodreads"}}
+                    <div id="gr_add_to_books" class="ng-scope goodreads-btn">
+                        <div class="gr_custom_each_container_">
+                            <a target="_blank" href="https://www.goodreads.com/book/show/{{.productId}}">
+                                <img src="https://www.goodreads.com/images/atmb_add_book-70x25.png" />
+                            </a>
+                        </div>
+                    </div>
+                {{ else if eq .type "annie" }}
+                    <a href="https://www.annieblooms.com/book/{{.productId}}">buy signed copies from {{.name}}*</a>
+                {{ else if eq .type "bookshop-org" }}
+                    <a href="https://bookshop.org/a/19741/{{.productId}}">buy from {{.name}}</a>
+                {{ else if eq .type "amazon-com"}}
+                    <a href="https://amazon.com/{{.productId}}">buy from {{.name}}</a>
+                {{ else if eq .type "ban"}}
+                    <a href="{{.productId}}">buy from {{.name}}</a>
+                {{ else if eq .type "harpor"}}
+                    <a href="https://www.harpercollins.com/{{.productId}}">buy from {{.name}}</a>
+                {{end}}
+            </div>
+        {{ end }}
+    </div>
+</div>
+
+<!-- Top Reviews -->
+{{ if (gt (len $topReviews) 0)}}
+<div class="quotes">
+<h3>praise for <i>{{ .Title }}</i></h3>
+{{ range sort $topReviews "weight" }}
+    {{ partial "review.html" . }}
+{{end}}
+</div>
+{{end}}
+
+{{ .Content }}
+
+{{ if (gt (len $bottomReviews) 0)}}
+<div class="quotes">
+    <h3>more praise for <i>{{ .Title }}</i></h3>
+    {{ range sort $bottomReviews "weight" }}
+    {{ partial "review.html" . }}
+    {{end}}
+</div>
+{{end}}
+
+{{end}}

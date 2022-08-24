@@ -1,0 +1,8 @@
+<div class="social">
+  {{ range .Site.Params.social }}
+    <a href="{{.href}}" target="_blank">
+      <img alt="{{.name}}" src="{{.img}}">
+    </a>
+  {{end}}
+
+</div>

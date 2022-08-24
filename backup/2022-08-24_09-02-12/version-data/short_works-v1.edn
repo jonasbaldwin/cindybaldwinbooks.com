@@ -1,0 +1,39 @@
+{:short-works [{:title             "Three Poems: \"Redemption,\" \"The Day The Dolphins Came,\" \"The ghost\""
+                :publication-title "YARN"
+                :link              "http://yareview.net/2018/06/3-poems-by-cindy-baldwin/"}
+               {:title             "When The Night Comes"
+                :publication-title "Literary Mama"
+                :link              "http://www.literarymama.com/creativenonfiction/archives/2018/06/when-the-night-comes.html/?src=twitter"}
+               {:title             "Her Story: Ladies In Literature, Vicky Austin"
+                :publication-title "Pop Goes The Reader"
+                :link              "http://www.popgoesthereader.com/her-story-ladies-in-literature/her-story-ladies-in-literature-2018-with-cindy-baldwin/"}
+               {:title             "heartbeat (for my someday baby)"
+                :publication-title "Segullah"
+                :link              "http://segullah.org/genre/poetry/heartbeat-for-my-someday-baby/"}
+               {:title             "Six Years Here"
+                :publication-title "IDAHO Magazine"
+                :link              "http://www.idahomagazine.com/"
+                :date              "August 2012"}
+               {:title             "By Hand"
+                :publication-title "Rhythm of the Home"}
+               {:title             "Living Breathless"
+                :description       "—regular column"
+                :publication-title "The Equals Record"
+                :link              "http://equalsrecord.com/"
+                :excerpts          [{:title "Kitchen Meditation"
+                                     :link  "http://equalsrecord.com/blog/kitchen-meditation"}
+                                    {:title "Envy and Gratitude"
+                                     :link  "http://equalsrecord.com/blog/the-secret-of-happiness"}
+                                    {:title "Effortless"
+                                     :link  "http://equalsrecord.com/blog/effortless"}]}
+               {:title             "Final Day"
+                :publication-title "Caesura Poetry Journal"
+                :link              "http://www.pcsj.org/caesura.html"
+                :date              "December 2012 "},
+               {:title             "Choosing Motherhood"
+                :publication-title "Segullah"
+                :link              "http://segullah.org/genre/essay/choosing-motherhood/"}
+               {:description       "Many articles"
+                :publication-title "FamilyShare.com"
+                :link              "https://familyshare.com/authors/cindybaldwin"}]
+ :essays-and-poems []}

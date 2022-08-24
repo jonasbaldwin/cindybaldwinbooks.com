@@ -1,0 +1,10 @@
+{:pages [{:title "About"
+          :source "about.md"}
+         {:title "For Teachers"
+          :source "for-teachers.md"}
+         {:title "For Kids"
+          :source "for-kids.md"}
+         {:title "For Writers"
+          :source "for-writers.md"}
+         {:title "Extras"
+          :source "extras.md"}]}

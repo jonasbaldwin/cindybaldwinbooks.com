@@ -1,0 +1,2 @@
+- [Short Works](#short-works)
+- <a href="http://blog.cindybaldwinbooks.com/" target="_blank">Blog</a>

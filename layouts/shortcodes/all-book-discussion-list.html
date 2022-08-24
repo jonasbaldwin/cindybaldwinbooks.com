@@ -1,0 +1,8 @@
+<h3>A complete list of all Class Resources</h3>
+
+<ul>
+  {{ range where .Site.Pages ".Type" "class-resource" }}
+    {{$hcRelease := (time .PublishDate) }}
+    <li><a href="{{ .RelPermalink }}">Resources for teaching {{.Title}}.</a></li>
+  {{end}}
+</ul>

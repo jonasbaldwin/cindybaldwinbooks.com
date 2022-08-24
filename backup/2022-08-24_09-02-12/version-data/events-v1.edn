@@ -1,0 +1,10 @@
+{:events [{:date        "13 March 2021 at 2:00 pm (EST)"
+           :title       "SE-YA Book Festival Community Day 2021"
+           :location    {:name "Virtual"
+                         :link "https://www.seyabookfest.com/"}
+           :description [:span "I’ll be participating on this panel for the fully virtual SE-YA Book Festival Community Day 2021!"]}
+          {:date        "15 May 2021"
+           :title       "Storymakers Conference 2021"
+           :location    {:name "Virtual"
+                         :link "https://ldstorymakersconference.com/"}
+           :description [:span "I’ll be teaching a class on “How To Write Characters With Disabilities” at the Storymakers Conference in May 2021."]}]}

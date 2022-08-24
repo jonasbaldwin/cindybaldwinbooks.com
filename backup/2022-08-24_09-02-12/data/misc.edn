@@ -1,0 +1,151 @@
+{:teaching-testimonials [{:author   "Heidi Mozelewski"
+                          :location "Bellingham, WA"
+                          :text     "Cindy Baldwin’s presentation for our 4th and 5th graders was a tremendous example of “triumph through adversity”, as she shared with us about her own personal health experiences and the journey of being a writer. Many of our students related to her statement that “not all stories have a happy ending”. Throughout Cindy’s time with us, we were able to make connections to the characters in her books--of relationship and family struggles, loss and yet learning to become a better person. I would highly recommend an author visit with Cindy Baldwin!"}
+                         {:author   "Danae Powers"
+                          :location "Seattle, WA"
+                          :text     "Loved meeting author Cindy Baldwin! Her presentation focused on the theme of resilience and I could tell it resonated with students."}]
+ :about                 []
+ :faqs                  [{:question "Are the links on you site affiliate links?"
+                          :answer   "Some of the links on this site are affiliate links which will result in a small commission if you use them to purchase my books. This does not affect the price that the bookshops charge."}]
+ :navigation-links      [{:name     :home
+                          :display  "Home"
+                          :link     "#home"
+                          :position 0}
+                         {:name          :about
+                          :display       "About"
+                          :link          "#p/about"
+                          :home-position {:shelf 1 :location 1}
+                          :position      1}
+                         {:name          :books
+                          :display       "Books"
+                          :link          "#books"
+                          :home-position {:shelf 1 :location 2}
+                          :position      2}
+                         {:name          :events
+                          :display       "Events"
+                          :link          "#events"
+                          :home-position {:shelf 1 :location 3}
+                          :position      3}
+                         {:name          :press-kit
+                          :display       "Press Kit"
+                          :link          "#press-kit"
+                          :home-position {:shelf 1 :location 4}
+                          :position      4}
+                         {:display       false
+                          :home-position {:shelf 1 :location 4.5 :img "honey"}}
+                         {:name          :for-teachers
+                          :display       "For Teachers"
+                          :link          "#p/for-teachers"
+                          :position      5
+                          :home-position {:shelf 1 :location 5}}
+                         {:name          :for-writers
+                          :display       "For Writers"
+                          :link          "#p/for-writers"
+                          :position      6
+                          :home-position {:shelf 1 :location 6}}
+                         {:name          :for-kids
+                          :display       "For Kids"
+                          :link          "#p/for-kids"
+                          :position      7
+                          :home-position {:shelf 1 :location 7}}
+                         {:name          :extras
+                          :display       "Extras"
+                          :link          "#p/extras"
+                          :position      8
+                          :home-position {:shelf 1 :location 8}}
+                         {:name    :blog-resources
+                          :display "Blog"
+                          :link    "http://blog.cindybaldwinbooks.com/"
+                          :target  "_blank"
+                          :home-position {:shelf 2 :location 1}
+                          :position 9}
+                         {:display       false
+                          :home-position {:shelf 2 :location 2}}
+                         {:display       false
+                          :home-position {:shelf 2 :location 2.5 :img "open-book"}
+                          :class         "top"}
+                         {:display       false
+                          :home-position {:shelf 2 :location 3}
+                          :class         "purple-book"}]
+ :bugs                  [{:page :home
+                          :type :bee
+                          :size 50
+                          :margin-top 87
+                          :margin-left 200
+                          :rotate 30
+                          :hint "Where the Watermelons Grow was originally inspired by the children’s song \"Down By The Bay.\""
+                          :hint-width 200
+                          :position :left}
+                         {:page :home
+                          :type :firefly
+                          :size 35
+                          :margin-top 235
+                          :margin-left -330
+                          :rotate 125
+                          :hint "The Stars of Whistling Ridge was originally inspired by a typo. Cindy was trying to google something about \"Little Women\" by Louisa May Alcott, but her phone autocorrected it to \"Little Winnebago\" instead."
+                          :hint-width 300
+                          :position :right}
+                         {:page :home
+                          :type :firefly
+                          :size 30
+                          :margin-top 565
+                          :margin-left 330
+                          :rotate -32
+                          :hint "Cindy played in several violin recitals at Brightleaf Square Mall in Durham, NC—the place Annie Lee takes piano lessons in Beginners Welcome."
+                          :hint-width 200
+                          :position :left}
+                         {:page :home
+                          :type :bee
+                          :size 35
+                          :margin-top 670
+                          :margin-left -490
+                          :rotate 42
+                          :hint "Cindy’s favorite book is A Ring of Endless Light by Madeleine L’Engle."
+                          :hint-width 150
+                          :position :right}
+                         {:page :extras
+                          :type :bee
+                          :size 40
+                          :margin-top 240
+                          :margin-left -600
+                          :rotate 22
+                          :hint "Watermelons grown near the Albermarle Sound, where Della’s family lives in Where The Watermelons Grow, really ARE some of the most delicious melons ever!"
+                          :hint-width 200
+                          :position :right}
+                         {:page :books
+                          :type :firefly
+                          :size 35
+                          :margin-top 1000
+                          :margin-left 700
+                          :rotate -28
+                          :hint "Cindy's daughter was two years old when she wrote Where the Watermelons Grow. Every single thing that baby Mylie gets in trouble for were real-life things that Cindy's baby did!"
+                          :hint-width 200
+                          :position :left}
+                         {:page :for-teachers
+                          :type :bee
+                          :size 35
+                          :margin-top 100
+                          :margin-left -500
+                          :rotate 44
+                          :hint "Whistling Ridge, the town Ivy's family visits in The Stars of Whistling Ridge, was loosely inspired by the town where Cindy's grandparents lived when she was a kid."
+                          :hint-width 200
+                          :position :right}
+                         {:page :for-kids
+                          :type :firefly
+                          :size 50
+                          :margin-top 350
+                          :margin-left 470
+                          :rotate -40
+                          :hint "When Cindy was 12, her favorite series was The Chronicles of Prydain by Lloyd Alexander. There are references to this series in two of Cindy's books."
+                          :hint-width 200
+                          :position :left}
+                         {:page :for-kids
+                          :type :bee
+                          :size 30
+                          :margin-top 150
+                          :margin-left -230
+                          :rotate 38
+                          :hint "In The Stars of Whistling Ridge, Ravi's dad loves to experiment with new ice cream flavors. This is based on Cindy's husband, who loves to try new and unusual recipes for ice cream."
+                          :hint-width 300
+                          :position :right}]}
+

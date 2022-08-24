@@ -1,0 +1,25 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ range .Pages.ByPublishDate.Reverse }}
+<div class="clear book-info-summary">
+    <div class="book-info">
+        <a  href="{{ .RelPermalink }}">
+            <img src="{{.Params.book_thumbnail}}" class="book-img" />
+        </a>
+    </div>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ if isset .Params "list_view_reviews"}}
+    {{ range .Params.list_view_reviews}}
+    <h3 class="plain">{{ . }}</h3>
+    {{end}}
+    {{end}}
+    {{if isset .Params "book_summary"}}
+    <p><b>{{.Params.book_summary}}</b></p>
+    {{end}}
+    <p>{{ .Summary }} <a href="{{ .RelPermalink }}">Click here for more info.</a> </p>
+</div>
+
+<!--        <div class="clear book-info-summary"><div class="book-info"><a href="/#books/beginners-welcome"><img src="images/books/BeginnersWelcome-cover.jpeg" class="book-img"></a></div><a href="/#books/beginners-welcome"><h2>Beginners Welcome</h2></a><p>A heartfelt novel from <i>Where the Watermelons Grow</i> author Cindy Baldwin about a young girl’s journey to hope and healing after a tragic loss.</p><p>It’s been eighty-three days since Annie Lee’s daddy died, but she still sees reminders of him everywhere. Like in the bathroom sink, where his whiskers appear in the morning along with the scent of his aftershave. His record player mysteriously plays his favorite songs, and the TV keeps turning to the Duke basketball games he loved. She knows Mama notices it, too, but Mama's been working around the clock to make ends meet. To make matters worse, Annie Lee’s friends ditched her over the summer, so she’s feeling completely alone—until she meets Mitch. Though Mitch is tough and confident on the outside, she may need a friend just as badly as Annie Lee. But after losing so much, Annie Lee is afraid to let anyone get too close. <a href="/#books/beginners-welcome">Click here for more info.</a></p></div>-->
+{{ end }}
+{{ end }}

@@ -1,0 +1,9 @@
+{:teaching-testimonials [{:author   "Heidi Mozelewski"
+                          :location "Bellingham, WA"
+                          :text     "Cindy Baldwin’s presentation for our 4th and 5th graders was a tremendous example of “triumph through adversity”, as she shared with us about her own personal health experiences and the journey of being a writer. Many of our students related to her statement that “not all stories have a happy ending”. Throughout Cindy’s time with us, we were able to make connections to the characters in her books--of relationship and family struggles, loss and yet learning to become a better person. I would highly recommend an author visit with Cindy Baldwin!"}
+                         {:author   "Danae Powers"
+                          :location "Seattle, WA"
+                          :text     "Loved meeting author Cindy Baldwin! Her presentation focused on the theme of resilience and I could tell it resonated with students."}]
+ :about                 []
+ :faqs                  [{:question "Are the links on you site affiliate links?"
+                          :answer   "Some of the links on this site are affiliate links which will result in a small commission if you use them to purchase my books. This does not affect the price that the bookshops charge."}]}
