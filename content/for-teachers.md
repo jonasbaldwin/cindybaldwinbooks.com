@@ -2,6 +2,7 @@
 title: For Teachers
 aliases:
 - teaching-resources
+- teachers
 ---
 
 I love connecting with educators and students! If you're interested in sharing my books with your students, here are some resources just for you.

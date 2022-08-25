@@ -3,6 +3,8 @@ title: About
 aliases:
 - about-us
 - about-me
+- aboutus
+- aboutme
 ---
 
 ![Headshot of Cindy Baldwin, brunette hair, green glasses, and a yellow shirt in front of a river.](/images/headshot2-small.png)

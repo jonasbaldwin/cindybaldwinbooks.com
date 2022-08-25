@@ -1,5 +1,9 @@
 ---
 title: Press Kit
+aliases:
+- press
+- presskit
+- pk
 ---
 
 Text and images may be used for promotional purposes.

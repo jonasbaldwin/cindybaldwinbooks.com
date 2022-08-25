@@ -1,5 +1,8 @@
 ---
 title: Short Works
+aliases:
+- shortworks
+- sw
 ---
 
 - Three Poems: "Redemption," "The Day The Dolphins Came," "The ghost" in [YARN](http://yareview.net/2018/06/3-poems-by-cindy-baldwin/)
