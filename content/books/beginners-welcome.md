@@ -68,12 +68,12 @@ vendors:
   weight: 4
 - 
   type: ban
-  name: Barns & Nobel
+  name: Barnes and Nobel
   productId: https://www.barnesandnoble.com/w/beginners-welcome-cindy-baldwin/1130069869?ean=9780062665898
   weight: 5
 - 
-  type: harpor
-  name: Harpor Collins
+  type: hc
+  name: HarperCollins
   productId: 9780062665898/beginners-welcome/
   weight: 6
 

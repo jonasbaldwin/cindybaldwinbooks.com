@@ -40,12 +40,12 @@ vendors:
   weight: 4
 - 
   type: ban
-  name: Barns & Nobel
+  name: Barnes and Nobel
   productId: https://www.barnesandnoble.com/w/the-stars-of-whistling-ridge-cindy-baldwin/1137108724?ean=9780063006416
   weight: 5
 - 
-  type: harpor
-  name: Harpor Collins
+  type: hc
+  name: HarperCollins
   productId: 9780063006416/the-stars-of-whistling-ridge
   weight: 6
 ---

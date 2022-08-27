@@ -50,12 +50,12 @@ vendors:
   weight: 4
 - 
   type: ban
-  name: Barns & Nobel
+  name: Barnes and Nobel
   productId: https://www.barnesandnoble.com/w/where-the-watermelons-grow-cindy-baldwin/1126728566?ean=9780062665867#/
   weight: 5
 - 
-  type: harpor
-  name: Harpor Collins
+  type: hc
+  name: HarperCollins
   productId: 9780062665867/where-the-watermelons-grow
   weight: 6
 

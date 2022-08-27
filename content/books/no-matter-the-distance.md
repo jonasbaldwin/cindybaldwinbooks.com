@@ -40,12 +40,12 @@ vendors:
   weight: 4
 - 
   type: ban
-  name: Barns & Nobel
+  name: Barnes and Nobel
   productId: https://www.barnesandnoble.com/w/no-matter-the-distance-cindy-baldwin/1141500825?ean=9780063006447
   weight: 5
 - 
-  type: harpor
-  name: Harpor Collins
+  type: hc
+  name: HarperCollins
   productId: 9780063006447/no-matter-the-distance/
   weight: 6
 
