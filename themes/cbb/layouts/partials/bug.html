@@ -1,6 +1,11 @@
 {{ $bugClass := print "height: " .size "px; width: " .size "px; margin-top: " .margin_top "px; margin-left: " .margin_left "px;" }}
 {{ $innerClass := print "height: " .size "px; width: " .size "px; background-size: " .size "px " .size "px; transform: rotate(" .rotate "deg);"}}
-{{ $hintStyle := print "width: " .text_width "px; top: -5px; right: 115%;"}}
+{{ $hintStyle := "" }}
+{{ if (eq .position "left") }}
+  {{ $hintStyle = print "width: " .text_width "px; top: -5px; right: 115%;"}}
+{{ else }}
+  {{ $hintStyle = print "width: " .text_width "px; top: -5px; left: 115%;"}}
+{{ end }}
 
 <span class="bug" style="{{ $bugClass | safeCSS }}">
   <span class="shake">

@@ -21,10 +21,7 @@ Some data is set in `config.toml` including the site's title and other metadata,
 Add images to `/static/images` (or a subdirectory). Add resources like PDFs/etc. to `/static/class-resources/`.
 
 ## Release
-- First Backup
-  - `./scripts/backup.sh`
-  - This creates a folder with the date and time of backup in `~/backups`
+- Make changes
 - Build Site
   - `hugo`
-- Push changes to AWS
-  - `./scripts/publish.sh`
+- Push changes to repository to ship.
