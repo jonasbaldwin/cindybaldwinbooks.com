@@ -1,5 +1,6 @@
 ---
 title: Beginners Welcome Classroom Resources
+anchorTitle: Beginners Welcome
 type: class-resource
 publishDate: 2018-01-01
 ---

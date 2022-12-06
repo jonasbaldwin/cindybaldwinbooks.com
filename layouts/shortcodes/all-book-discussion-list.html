@@ -1,6 +1,6 @@
 <ul>
   {{ range where .Site.Pages ".Type" "class-resource" }}
     {{$hcRelease := (time .PublishDate) }}
-    <li><a href="{{ .RelPermalink }}">Resources for teaching {{.Title}}.</a></li>
+    <li><a href="{{ .RelPermalink }}">Resources for teaching {{.Params.AnchorTitle}}.</a></li>
   {{end}}
 </ul>

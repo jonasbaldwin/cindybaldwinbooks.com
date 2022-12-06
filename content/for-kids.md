@@ -5,4 +5,3 @@ aliases:
 - fun
 ---
 
-Coming Soon

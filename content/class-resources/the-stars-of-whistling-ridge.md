@@ -1,5 +1,6 @@
 ---
 title: The Stars of Whistling Ridge Classroom Resources
+anchorTitle: The Stars of Whistling Ridge
 type: class-resource
 publishDate: 2020-01-01
 ---

@@ -1,5 +1,6 @@
 ---
 title: Where the Watermelons Grow Classroom Resources
+anchorTitle: Where the Watermelons Grow
 type: class-resource
 publishDate: 2017-01-01
 ---
