@@ -160,6 +160,27 @@ home = ["HTML", "JSON"]
   text_width = 300
   position = "right"
 
+[[params.bugs]]
+  page = "About"
+  type = "bee"
+  size = 30
+  margin_top = 260
+  margin_left = -230
+  rotate = -5
+  text = "Cindy spent time kayaking on the Neuse River in New Bern, NC when she was working on No Matter the Distance."
+  text_width = 300
+  position = "right"
+
+[[params.bugs]]
+  page = "About"
+  type = "firefly"
+  size = 30
+  margin_top = 460
+  margin_left = 390
+  rotate = -50
+  text = "In No Matter the Distance, Penny has to get a PICC line to treat her cystic fibrosis. Cindy got her first PICC line when she was 11, Penny's age."
+  text_width = 300
+  position = "right"
 
 
 [[params.social]]
