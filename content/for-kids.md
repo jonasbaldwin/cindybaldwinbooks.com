@@ -13,18 +13,17 @@ If you can find all 11 insects, email me at [cindybaldwinbooks@gmail.com](mailto
 
 ### Videos
 
-#### Book Trailer for The Stars of Whistling Ridge
+#### Book Trailer for _The Stars of Whistling Ridge_
 {{< youtube VD4x06ocO0k >}}
 
 #### Music Video for "The Ballad of Lydia Lovelace"
 {{< youtube B6m2PpmfEPQ >}}
 
-#### Beginners Welcome Music Video
+#### _Beginners Welcome_ Music Video
 {{< youtube SmRofXkvCLI >}}
 
 #### _Where the Watermelons Grow_ Book Trailer
 {{< youtube gIEPY__fkiI >}}
-
 
 #### 5 Facts about _Where the Watermelons Grow_
 {{< youtube RhhoSeeWiAw >}}

@@ -59,6 +59,11 @@ home = ["HTML", "JSON"]
   url = "http://blog.cindybaldwinbooks.com/"
   weight = 10
 
+[[Menus.main]]
+  name = "FAQ"
+  url = "/faq/"
+  weight = 11
+
 
 [params]
 [[params.bugs]]
