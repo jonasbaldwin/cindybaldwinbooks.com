@@ -33,6 +33,9 @@
     {{if (isset . "nyt_bestseller")}}
       Author of New York Times Bestselling book <i>{{.nyt_bestseller}}</i>
     {{end}}
+    {{if (isset . "authorbook")}}
+      Author of <i>{{.authorbook}}</i>
+    {{end}}
 
   </span>
   {{end}}

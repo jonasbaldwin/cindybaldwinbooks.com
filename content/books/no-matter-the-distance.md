@@ -16,6 +16,23 @@ book_summary: An unexpected animal companion helps a girl with cystic fibrosis l
 
 publishDate: 2022-08-01
 
+reviews:
+- 
+  text: A thought-provoking take on illness, identity, and long-distance friendship.
+  location: top
+  author: Kirkus
+- 
+  text: Full of wonder and compassion, NO MATTER THE DISTANCE is a memorable story about friendship, an unbreakable connection, and finding the strength to fight for those we love. Penny is a unique yet relatable character, with an authentic and entertaining story.
+  author: Lynne Kelly
+  authorbook: Song For a Whale
+- 
+  text: NO MATTER THE DISTANCE weaves an intimate, personal story of life with cystic fibrosis and a universal story of self-discovery into a luminous tale of friendship, family, and belonging.
+  author: Joy McCullough
+  authorbook: Blood Water Paint
+- 
+  text: NO MATTER THE DISTANCE hooked me hard from the beginning and just swept me through with so much heart and resonance throughout.
+  author: Stephanie Burgis
+  authorbook: The Dragon With A Chocolate Heart
 
 vendors:
 -

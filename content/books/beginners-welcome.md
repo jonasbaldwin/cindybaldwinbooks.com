@@ -18,33 +18,6 @@ book_summary: A heartfelt novel from WHERE THE WATERMELONS GROW author Cindy Bal
 
 publishDate: 2018-01-01
 
-reviews:
-- 
-  type: blurb
-  author: Jessica Day George
-  ny_times_bestseller: Tuesdays At The Castle
-  location: top
-  publisher: Harper Children's
-  text: As delicate and powerful as a sonata, Annie Lee's story of music, magic, loss, and love should not be missed!
-- 
-  type: star-review
-  location: top
-  author: School Library Journal
-  text: Targeted to kids who sometimes feel invisible or afraid, Baldwin’s prose challenges them to be the bravest and wisest versions of themselves, delivering the message that it is our brokenness that makes us beautiful, not our perfection.
--
-  type: review
-  text: Once again, Baldwin crafts a solid story of hardship tempered by community and resilience.
-  author: Kirkus Reviews
-  link: https://www.kirkusreviews.com/book-reviews/cindy-baldwin/beginners-welcome/
--
-  type: review
-  text: Intermingling themes of grief and loss with moments of unexpected, joyful connection, Baldwin depicts character growth with particular grace.
-  author: Publishers Weekly
--
-  type: review
-  text: Genuine and hopeful, Annie Lee’s story is one of finding courage in tough circumstances, of love and vulnerability, and of the power of music, despite one’s imperfections.
-  author: Booklist
-
 vendors:
 -
   type: goodreads
@@ -79,15 +52,29 @@ vendors:
 
 reviews:
 -
+  type: brief
+  text: An Oregon School Book Award Honor
+  location: top
+-
+  type: brief
+  text: A Charlie May Simon Award Finalist
+  location: top
+-
+  type: brief
+  text: A Whitney Award Finalist
+  location: top
+-
+  type: brief
+  text: An Association of Mormon Letters Award Finalist
+  location: top
+-
   type:                      blurb
-  location:                  top
   author:                    Jessica Day George
   nyt_bestseller: Tuesdays At The Castle
   text:                      As delicate and powerful as a sonata, Annie Lee's story of music, magic, loss, and love should not be missed!
   publisher: Harper Children's
 -
   type:     star-review
-  location: top
   text:     Targeted to kids who sometimes feel invisible or afraid, Baldwin’s prose challenges them to be the bravest and wisest versions of themselves, delivering the message that it is our brokenness that makes us beautiful, not our perfection.
   author:   School Library Journal
 -

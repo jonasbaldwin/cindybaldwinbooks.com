@@ -17,8 +17,27 @@ book_summary: In this new novel from the Indies Introduce author of WHERE THE WA
 
 publishDate: 2020-01-01
 
-vendors:
+reviews:
 -
+  type: brief
+  text: A Whitney Award Finalist
+  location: top
+- 
+  type: blurb
+  author: Jasmine Warga 
+  newberry_book: Other Words for Home
+  location: top
+  text: Delightfully voice-y and atmospheric, THE STARS OF WHISTLING RIDGE is a gentle and magical story about family and the true meaning of home.
+- 
+  type: blurb
+  text: A believable young girl emerges as she tries, sometimes awkwardly and sometimes gracefully, to find her place. 
+  author: The Horn Book
+- 
+  type: blurb
+  text: Baldwin satisfyingly renders picturesque descriptions of the setting, the awkward painfulness marking the transition from child to teen, and a robust family core.
+  author: Publishers Weekly
+vendors:
+- 
   type: goodreads
   productId: 52498186-the-stars-of-whistling-ridge
   weight: 1
