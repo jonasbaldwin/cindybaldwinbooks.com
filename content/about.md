@@ -13,10 +13,7 @@ aliases:
 
 ## Short Bio
 
-Cindy Baldwin the author of the critically acclaimed novel _Where the Watermelons Grow_
-(an Oregon Spirit Book Award Honor, Indies Introduce title, and Indie Next selection),
-_Beginners Welcome_, and _The Stars of Whistling Ridge_. She lives just outside
-Portland, Oregon, with her husband and daughter.
+Cindy Baldwin is the author of the critically acclaimed novels _Where the Watermelons Grow_, _Beginners Welcome_, _The Stars of Whistling Ridge_, and _No Matter the Distance_ (a Junior Library Guild selection). She lives just outside Portland, Oregon, with her husband and daughter.
 
 ## Long Bio
 
