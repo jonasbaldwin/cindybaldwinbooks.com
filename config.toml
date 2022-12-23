@@ -185,7 +185,7 @@ home = ["HTML", "JSON"]
   rotate = -50
   text = "In No Matter the Distance, Penny has to get a PICC line to treat her cystic fibrosis. Cindy got her first PICC line when she was 11, Penny's age."
   text_width = 300
-  position = "right"
+  position = "left"
 
 
 [[params.social]]

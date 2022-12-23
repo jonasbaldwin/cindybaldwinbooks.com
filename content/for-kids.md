@@ -7,7 +7,7 @@ aliases:
 
 ### Scavenger Hunt
 
-There are 11 insects hidden on my website! If you hover your mouse over them, you'll see interesting facts about me and my books.
+There are 11 insects hidden on my website! If you hover your mouse over them, you’ll see interesting facts about me and my books. (The hidden insects aren't viewable on a phone, and display best on a computer or a keyboard-linked tablet.)
 
 If you can find all 11 insects, email me at [cindybaldwinbooks@gmail.com](mailto:cindybaldwinbooks@gmail.com) and tell me one thing you learned from the insect facts. I'll send you a small book-related gift!
 

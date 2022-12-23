@@ -33,6 +33,13 @@ publishDate: 2020-01-01
 
 12. Geography Extension: Although most of the book takes place in the fictional town of Whistling Ridge, North Carolina, Ivy’s family frequently moves around in Martha, their Winnebago RV. Besides North Carolina, other states mentioned in the book include Montana (where Aunt Ruth lives), Alabama (where Daddy’s from), Louisiana (where the Blooms were just before the book opens), and Oklahoma (where the Blooms are at the beginning of the book.) Have you visited any of these states? Pick two states from this list and do some research on them. How are they similar? How are they different? Are they close to the place you live, or far away? What do you think it would be like to move from place to place all the time, the way Ivy’s family does?
 
+## Activity Guide by the Institute of Arts Integration and STEAM.
+
+[![Activity Guide by the Institute of Arts Integration and STEAM](/images/catch-a-spark.jpeg)](/class-resources/ActivityGuideSOWR.pdf)
+
+This wonderful [activity guide](/class-resources/ActivityGuideSOWR.pdf) for _The Stars of Whistling Ridge_ was created by the Institute of Arts Integration and STEAM.
+
+{{< inline-break >}}
 ## Book Trailer for Stars of Whistling Ridge
 {{< youtube VD4x06ocO0k >}}
 

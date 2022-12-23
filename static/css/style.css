@@ -36,6 +36,10 @@ body strong, body b {
   font-size: large;
 }
 
+.clear {
+  clear: both;
+}
+
 img {
   z-index: 1;
 }
