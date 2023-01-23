@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/themes" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/public" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
