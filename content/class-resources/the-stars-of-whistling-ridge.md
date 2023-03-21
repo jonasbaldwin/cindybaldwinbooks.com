@@ -7,7 +7,7 @@ publishDate: 2020-01-01
 
 ## Discussion Questions for The Stars of Whistling Ridge
 
-(You can download a printable PDF copy of these discussion questions  [here](/class-resources/starsOfWhistlingRidgeDicussionQuestions.pdf)!
+(You can download a printable PDF copy of these discussion questions  [here](/class-resources/starsOfWhistlingRidgeDicussionQuestions.pdf))!
 
 1. More than anything in the world, Ivy wants a “forever home”—a place she can put down roots. Ivy’s willing to do a lot of things to get what she wants, even if some of those things might hurt her or or family. Have you ever wanted something so badly you were tempted to make unwise choices to get it?
 
