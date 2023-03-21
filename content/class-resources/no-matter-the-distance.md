@@ -6,7 +6,7 @@ publishDate: 2023-03-21
 ---
 ## Discussion Questions for No Matter the Distance
 
-(You can download a printable PDF copy of these discussion questions [here](/class-resources/noMatterTheDistanceDiscussionQuestions.pdf))!
+(You can download a printable PDF copy of these discussion questions [here](/class-resources/noMatterTheDistanceDiscussionQuestions.pdf)!)
 
 Aligned with Fifth Grade Common Core Standards for English Language Arts
 (RL5.1-5.7; L5.5.A)

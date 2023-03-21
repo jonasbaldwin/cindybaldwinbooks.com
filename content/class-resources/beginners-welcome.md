@@ -6,7 +6,7 @@ publishDate: 2018-01-01
 ---
 ## Discussion Questions for Beginners Welcome
 
-(You can download a printable PDF copy of these discussion questions [here](/class-resources/beginnersWelcomeDiscussionQuestions.pdf))!
+(You can download a printable PDF copy of these discussion questions [here](/class-resources/beginnersWelcomeDiscussionQuestions.pdf)!)
 
 1. After her daddy's death, Annie Lee is determined to stay invisible because "invisible people couldn't be seen, and people who couldn't be seen couldn't be hurt" (page 7). Do you agree with her? Have you ever had a time where you found yourself choosing invisibility over the possibility of getting hurt?
 
