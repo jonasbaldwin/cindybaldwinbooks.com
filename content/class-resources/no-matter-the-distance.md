@@ -25,7 +25,9 @@ Aligned with Fifth Grade Common Core Standards for English Language Arts
 12. **Science Extension:** Penny has cystic fibrosis, a rare genetic disease that affects about 40,000 people in the United States and 105,000 people globally. Do some research into CF. What is life with CF like? Does learning about CF help you understand Penny better, or differently?
 
 ## Writing Activity: "What I Know About Myself" Poem
-In _No Matter the Distance_, Penny receives an assignment to write a poem on the topic of "What I Know About Myself." I've created a writing activity that will help students explore their own identity and build that understanding into a poem like Penny's. Examples can be found on pages 350-351 of _No Matter the Distance_, as well as in [this Google doc](https://docs.google.com/document/d/1II7iRDcMQLoZyIfb_Nq-5Jz4Q49snT_6-yIWUiyMtHc/edit). If you use this activity, I'd love to see what you and your students come up with! Feel free to contact me by email or tag me on Instagram ([@cindybaldwinbooks](https://www.instagram.com/cindybaldwinbooks/)) or Twitter ([@beingcindy](https://twitter.com/beingcindy)).
+In _No Matter the Distance_, Penny receives an assignment to write a poem on the topic of "What I Know About Myself." I've created a writing activity that will help students explore their own identity and build that understanding into a poem like Penny's. You can find the activity in the downloadable PDF [here](/class-resources/WhatIKnowAboutMyselfTemplate.pdf)!
+
+Examples can be found on pages 350-351 of _No Matter the Distance_, as well as in [this Google doc](https://docs.google.com/document/d/1II7iRDcMQLoZyIfb_Nq-5Jz4Q49snT_6-yIWUiyMtHc/edit). If you use this activity, I'd love to see what you and your students come up with! Feel free to contact me by [email](mailto:cindybaldwinbooks@gmail.com) or tag me on Instagram ([@cindybaldwinbooks](https://www.instagram.com/cindybaldwinbooks/)) or Twitter ([@beingcindy](https://twitter.com/beingcindy)).
 
 ## No Matter the Distance Book Trailer
 
