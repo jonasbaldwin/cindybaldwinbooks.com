@@ -3,16 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://cindybaldwinbooks.com/books/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://cindybaldwinbooks.com/</loc>
-    <lastmod>2022-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cindybaldwinbooks.com/books/dragon-in-sewer/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cindybaldwinbooks.com/class-resources/</loc>
+    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://cindybaldwinbooks.com/class-resources/no-matter-the-distance/</loc>
+    <lastmod>2023-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://cindybaldwinbooks.com/books/no-matter-the-distance/</loc>
     <lastmod>2022-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://cindybaldwinbooks.com/class-resources/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://cindybaldwinbooks.com/books/the-stars-of-whistling-ridge/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
@@ -49,6 +55,8 @@
     <loc>http://cindybaldwinbooks.com/for-writers/</loc>
   </url><url>
     <loc>http://cindybaldwinbooks.com/press-kit/</loc>
+  </url><url>
+    <loc>http://cindybaldwinbooks.com/short-works/</loc>
   </url><url>
     <loc>http://cindybaldwinbooks.com/tags/</loc>
   </url>
