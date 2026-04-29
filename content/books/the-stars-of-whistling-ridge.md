@@ -9,7 +9,6 @@ book_cover_hd: /images/books/StarsOfWhistlingRidge-cover.jpeg
 book_cover_credit: Illustration by Julie McLaughlin, with cover design by Cat San Juan and Erin Fitzsimmons.
 book_cover_alt: A dark blue cover with silhouette of girl releasing fireflies all reflected a pond.
 hc_release_date: 2021-06-15
-pb_release_date: 2023-01-24
 isbn: 978-0063006416
 
 book_summary: In this new novel from the Indies Introduce author of WHERE THE WATERMELONS GROW and BEGINNERS WELCOME, an almost-thirteen-year-old with an almost-complete sentence for a name embraces her destiny to search for a forever home.

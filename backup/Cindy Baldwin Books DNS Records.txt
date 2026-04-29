@@ -1,0 +1,40 @@
+;;
+;; Domain:     cindybaldwinbooks.com.
+;; Exported:   2025-04-05 18:09:57
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+cindybaldwinbooks.com	3600	IN	SOA	jay.ns.cloudflare.com. dns.cloudflare.com. 2049554319 10000 2400 604800 3600
+
+;; NS Records
+cindybaldwinbooks.com.	86400	IN	NS	jay.ns.cloudflare.com.
+cindybaldwinbooks.com.	86400	IN	NS	ruth.ns.cloudflare.com.
+
+;; A Records
+cindybaldwinbooks.com.	1	IN	A	198.185.159.144 ; cf_tags=cf-proxied:false
+
+;; CNAME Records
+abggy273yn4k.cindybaldwinbooks.com.	1	IN	CNAME	gv-dvvt4y4ka6d5ft.dv.googlehosted.com. ; cf_tags=cf-proxied:false
+blog.cindybaldwinbooks.com.	1	IN	CNAME	ghs.google.com. ; cf_tags=cf-proxied:false
+www.cindybaldwinbooks.com.	1	IN	CNAME	cindybaldwinbooks-com-app-ngv8a.ondigitalocean.app. ; cf_tags=cf-proxied:false
+ygafx4suisco.cindybaldwinbooks.com.	1	IN	CNAME	gv-dhk5yzhy2hr4s5.dv.googlehosted.com. ; cf_tags=cf-proxied:false
