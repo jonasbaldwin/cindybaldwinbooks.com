@@ -1,0 +1,77 @@
+name: Deploy to Hetzner
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-hetzner-production
+  cancel-in-progress: true
+
+env:
+  HUGO_VERSION: 0.161.1
+  DEPLOY_HOST: 100.103.130.73
+  DEPLOY_USER: cbb-deploy
+  DEPLOY_PATH: /opt/stashbot/production/sites/cindybaldwinbooks.com
+
+jobs:
+  deploy:
+    name: Build Hugo site and sync to Hetzner
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check required secrets
+        env:
+          TS_AUTHKEY: ${{ secrets.TS_AUTHKEY }}
+          HETZNER_DEPLOY_SSH_KEY: ${{ secrets.HETZNER_DEPLOY_SSH_KEY }}
+        run: |
+          if [ -z "$TS_AUTHKEY" ]; then
+            echo "Missing required GitHub secret: TS_AUTHKEY"
+            echo "Create an ephemeral/reusable Tailscale auth key and add it as TS_AUTHKEY."
+            exit 1
+          fi
+          if [ -z "$HETZNER_DEPLOY_SSH_KEY" ]; then
+            echo "Missing required GitHub secret: HETZNER_DEPLOY_SSH_KEY"
+            exit 1
+          fi
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
+
+      - name: Build
+        run: hugo --minify --gc
+
+      - name: Connect to Tailscale
+        uses: tailscale/github-action@v3
+        with:
+          authkey: ${{ secrets.TS_AUTHKEY }}
+
+      - name: Configure SSH
+        env:
+          HETZNER_DEPLOY_SSH_KEY: ${{ secrets.HETZNER_DEPLOY_SSH_KEY }}
+        run: |
+          install -d -m 700 ~/.ssh
+          printf '%s\n' "$HETZNER_DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+
+      - name: Deploy static files
+        run: |
+          rsync -az --delete --checksum \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            public/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
+
+      - name: Verify deployment
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "$DEPLOY_USER@$DEPLOY_HOST" \
+            "test -f '$DEPLOY_PATH/index.html' && find '$DEPLOY_PATH' -maxdepth 1 -type f -name index.html -ls"
