@@ -63,15 +63,17 @@ jobs:
           install -d -m 700 ~/.ssh
           printf '%s\n' "$HETZNER_DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          # Tailscale SSH can be slow to present a banner on fresh CI nodes; do not fail
+          # the deploy if pre-scanning times out. The deploy steps use accept-new below.
+          ssh-keyscan -T 30 -H "$DEPLOY_HOST" >> ~/.ssh/known_hosts || true
 
       - name: Deploy static files
         run: |
           rsync -az --delete --checksum \
-            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes" \
+            -e "ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new" \
             public/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
 
       - name: Verify deployment
         run: |
-          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "$DEPLOY_USER@$DEPLOY_HOST" \
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new "$DEPLOY_USER@$DEPLOY_HOST" \
             "test -f '$DEPLOY_PATH/index.html' && find '$DEPLOY_PATH' -maxdepth 1 -type f -name index.html -ls"
